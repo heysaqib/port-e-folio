@@ -16,15 +16,15 @@ export const BlurText = ({
   text = '',
   delay = 200,
   className = '',
+  easing = (t: number) => t,
+  onAnimationComplete,
+  stepDuration = 0.35,
   animateBy = 'words', // 'words' or 'letters'
   direction = 'top', // 'top' or 'bottom'
   threshold = 0.1,
   rootMargin = '0px',
   animationFrom,
   animationTo,
-  easing = (t: number) => t,
-  onAnimationComplete,
-  stepDuration = 0.35,
 }: {
   text?: string;
   delay?: number;
@@ -49,7 +49,8 @@ export const BlurText = ({
       ([entry]) => {
         if (entry.isIntersecting) {
           setInView(true);
-          observer.unobserve(ref.current!);
+        } else {
+          setInView(false);
         }
       },
       { threshold, rootMargin }

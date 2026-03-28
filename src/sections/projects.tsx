@@ -11,7 +11,7 @@ const projects = [
   {
     title: "E-Commerce Platform",
     description: "A full-stack e-commerce solution with Next.js, Stripe integration, and real-time inventory.",
-    image: "/project-1.jpg",
+    image: "https://picsum.photos/seed/project1/800/600",
     tags: ["Next.js", "TypeScript", "Tailwind", "Stripe"],
     github: "#",
     live: "#"
@@ -19,7 +19,7 @@ const projects = [
   {
     title: "3D Product Configurator",
     description: "Interactive 3D product customization tool built with React Three Fiber.",
-    image: "/project-2.jpg",
+    image: "https://picsum.photos/seed/project2/800/600",
     tags: ["React", "Three.js", "R3F", "Zustand"],
     github: "#",
     live: "#"
@@ -27,7 +27,7 @@ const projects = [
   {
     title: "Fintech Dashboard",
     description: "Data-heavy dashboard with complex charts, animations, and real-time websockets.",
-    image: "/project-3.jpg",
+    image: "https://picsum.photos/seed/project3/800/600",
     tags: ["React", "D3.js", "Framer Motion", "Socket.io"],
     github: "#",
     live: "#"
@@ -56,7 +56,7 @@ export function Projects() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: false, amount: 0.1 }}
           transition={{ duration: 0.5 }}
           className="space-y-6 mb-16"
         >
@@ -68,7 +68,7 @@ export function Projects() {
           variants={container}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: false, amount: 0.1 }}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
         >
           {projects.map((project, index) => (
@@ -76,9 +76,7 @@ export function Projects() {
               <Card className="h-full flex flex-col overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-2 group bg-background/50 backdrop-blur-sm border-muted/50">
                 <div className="relative h-48 w-full bg-muted overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent z-10" />
-                  <div className="absolute inset-0 flex items-center justify-center text-muted-foreground/30 font-bold text-4xl group-hover:scale-110 transition-transform duration-500">
-                    Image Placeholder
-                  </div>
+                  <img src={project.image} alt={project.title} className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <CardHeader>
                   <CardTitle className="group-hover:text-primary transition-colors">{project.title}</CardTitle>

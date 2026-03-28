@@ -32,7 +32,7 @@ export function Skills() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{ duration: 0.5 }}
           className="space-y-6 text-center"
         >
@@ -45,7 +45,7 @@ export function Skills() {
             variants={container}
             initial="hidden"
             whileInView="show"
-            viewport={{ once: true, margin: "-50px" }}
+            viewport={{ once: false, amount: 0.3 }}
             className="flex flex-wrap justify-center gap-3 mt-12"
           >
             {skills.map((skill, index) => (
