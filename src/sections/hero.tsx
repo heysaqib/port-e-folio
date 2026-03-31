@@ -79,7 +79,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.6 }}
             className="flex items-center gap-4 mt-8 pointer-events-auto"
           >
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-all hover:scale-110 hover:text-primary">
+            <a href="https://github.com/heysaqib" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-all hover:scale-110 hover:text-primary">
               <FaGithub className="h-7 w-7" />
               <span className="sr-only">GitHub</span>
             </a>
@@ -87,7 +87,7 @@ export function Hero() {
               <FaLinkedin className="h-7 w-7" />
               <span className="sr-only">LinkedIn</span>
             </a>
-            <a href="mailto:hello@example.com" className="text-muted-foreground hover:text-foreground transition-all hover:scale-110 hover:text-primary">
+            <a href="mailto:mailthatnerd@gmail.com" className="text-muted-foreground hover:text-foreground transition-all hover:scale-110 hover:text-primary">
               <FaEnvelope className="h-7 w-7" />
               <span className="sr-only">Email</span>
             </a>

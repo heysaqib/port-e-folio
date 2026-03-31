@@ -41,7 +41,7 @@ export function Navbar() {
     >
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-8">
         <Link href="/" className="flex items-center space-x-2">
-          <span className="text-xl font-bold tracking-tight">Portfolio.</span>
+          <span className="text-xl font-bold tracking-tight">Saqib Shaikh</span>
         </Link>
         <div className="hidden md:flex flex-1 items-center justify-center">
           <GooeyNav items={links} />

@@ -9,28 +9,28 @@ import { buttonVariants } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with Next.js, Stripe integration, and real-time inventory.",
-    image: "https://picsum.photos/seed/project1/800/600",
-    tags: ["Next.js", "TypeScript", "Tailwind", "Stripe"],
-    github: "#",
-    live: "#"
+    title: "AeroNotes",
+    description: "A sleek, high-performance note-taking application designed for speed and simplicity.",
+    image: "https://picsum.photos/seed/aeronotes/800/600",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Firebase"],
+    github: "https://github.com/heysaqib/aeronotes",
+    live: "https://aeronotes.vercel.app"
   },
   {
-    title: "3D Product Configurator",
-    description: "Interactive 3D product customization tool built with React Three Fiber.",
-    image: "https://picsum.photos/seed/project2/800/600",
-    tags: ["React", "Three.js", "R3F", "Zustand"],
-    github: "#",
-    live: "#"
+    title: "Aetheris Red",
+    description: "A dark-themed, immersive web experience with smooth animations and modern UI.",
+    image: "https://picsum.photos/seed/aetheris/800/600",
+    tags: ["React", "Framer Motion", "Tailwind", "Vite"],
+    github: "https://github.com/heysaqib/aetheris-red",
+    live: "https://aetheris-red.vercel.app"
   },
   {
-    title: "Fintech Dashboard",
-    description: "Data-heavy dashboard with complex charts, animations, and real-time websockets.",
-    image: "https://picsum.photos/seed/project3/800/600",
-    tags: ["React", "D3.js", "Framer Motion", "Socket.io"],
-    github: "#",
-    live: "#"
+    title: "Hiba Aesthetics",
+    description: "A premium aesthetic clinic website showcasing services and expertise with an elegant design.",
+    image: "https://picsum.photos/seed/hibaaesthetics/800/600",
+    tags: ["Next.js", "Sanity CMS", "Tailwind", "GSAP"],
+    github: "https://github.com/heysaqib/hibaaesthetics",
+    live: "https://hibaaesthetics.vercel.app"
   }
 ]
 

@@ -6,7 +6,7 @@ export function Footer() {
           Built with React, Next.js, and Tailwind CSS.
         </p>
         <div className="flex items-center space-x-4 text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+          &copy; {new Date().getFullYear()} Saqib Shaikh. All rights reserved.
         </div>
       </div>
     </footer>

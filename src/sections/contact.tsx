@@ -47,7 +47,7 @@ export function Contact() {
               </CardDescription>
             </CardHeader>
             <CardContent className="flex flex-col gap-6">
-              <a href="mailto:hello@example.com" className={buttonVariants({ size: "lg", className: "w-full flex gap-2 h-14 text-lg rounded-xl" })}>
+              <a href="mailto:mailthatnerd@gmail.com" className={buttonVariants({ size: "lg", className: "w-full flex gap-2 h-14 text-lg rounded-xl" })}>
                 <FaEnvelope className="h-5 w-5" /> Say Hello
               </a>
               
@@ -66,7 +66,7 @@ export function Contact() {
                 <a href="https://linkedin.com" target="_blank" rel="noreferrer" className={buttonVariants({ variant: "outline", className: "h-12 flex items-center justify-center gap-2" })}>
                   <FaLinkedin className="h-4 w-4" /> LinkedIn
                 </a>
-                <a href="https://github.com" target="_blank" rel="noreferrer" className={buttonVariants({ variant: "outline", className: "h-12 flex items-center justify-center gap-2" })}>
+                <a href="https://github.com/heysaqib" target="_blank" rel="noreferrer" className={buttonVariants({ variant: "outline", className: "h-12 flex items-center justify-center gap-2" })}>
                   <FaGithub className="h-4 w-4" /> GitHub
                 </a>
               </div>
