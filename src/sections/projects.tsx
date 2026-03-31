@@ -11,23 +11,23 @@ const projects = [
   {
     title: "AeroNotes",
     description: "A sleek, high-performance note-taking application designed for speed and simplicity.",
-    image: "https://images.unsplash.com/photo-1517842645767-c639042777db?q=80&w=1000&auto=format&fit=crop",
+    image: "https://picsum.photos/seed/aeronotes/800/600",
     tags: ["Next.js", "TypeScript", "Tailwind", "Firebase"],
-    github: "https://github.com/heysaqib/aeronotes",
-    live: "https://aeronotes.vercel.app"
+    github: "https://github.com/heysaqib/note-it-down",
+    live: "https://aeronotes-omega.vercel.app"
   },
   {
     title: "Aetheris Red",
     description: "A dark-themed, immersive web experience with smooth animations and modern UI.",
-    image: "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?q=80&w=1000&auto=format&fit=crop",
+    image: "https://picsum.photos/seed/aetheris/800/600",
     tags: ["React", "Framer Motion", "Tailwind", "Vite"],
-    github: "https://github.com/heysaqib/aetheris-red",
+    github: "https://github.com/heysaqib/shiny-umbrella",
     live: "https://aetheris-red.vercel.app"
   },
   {
     title: "Hiba Aesthetics",
     description: "A premium aesthetic clinic website showcasing services and expertise with an elegant design.",
-    image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=1000&auto=format&fit=crop",
+    image: "https://picsum.photos/seed/hibaaesthetics/800/600",
     tags: ["Next.js", "Sanity CMS", "Tailwind", "GSAP"],
     github: "https://github.com/heysaqib/hibaaesthetics",
     live: "https://hibaaesthetics.vercel.app"
@@ -64,7 +64,7 @@ export function Projects() {
           <div className="w-12 h-1 bg-primary rounded-full" />
         </motion.div>
 
-        <motion.div 
+        <motion.div
           variants={container}
           initial="hidden"
           whileInView="show"
