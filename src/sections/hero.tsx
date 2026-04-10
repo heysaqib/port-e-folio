@@ -28,18 +28,17 @@ export function Hero() {
       <div className="container relative z-10 mx-auto px-4 md:px-8 pointer-events-none">
         <div className="flex flex-col items-start max-w-2xl gap-4">
           <div>
-            <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight text-foreground">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight text-foreground flex flex-col gap-2 md:gap-3">
               <BlurText
-                text="Creative"
+                text="Hi, I’m Saqib Shaikh"
                 delay={60}
-                animateBy="letters"
+                animateBy="words"
                 direction="bottom"
                 className="inline-block"
               />
-              <br />
-              <span className="bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+              <span className="bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 block">
                 <BlurText
-                  text="Frontend Developer"
+                  text="Full-Stack Developer"
                   delay={150}
                   animateBy="words"
                   direction="top"
@@ -55,7 +54,7 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-xl">
-              I build visually stunning, interactive, and high-performance web applications using modern technologies like Next.js, React Three Fiber, and Framer Motion.
+              I build responsive web applications and work on real-world systems involving IoT, automation, and data-driven solutions. I enjoy solving practical problems and turning ideas into working products.
             </p>
           </motion.div>
 
