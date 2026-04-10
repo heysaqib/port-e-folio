@@ -28,7 +28,7 @@ export function Hero() {
       <div className="container relative z-10 mx-auto px-4 md:px-8 pointer-events-none">
         <div className="flex flex-col items-start max-w-2xl gap-4">
           <div>
-            <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight text-foreground">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight text-foreground flex flex-col gap-2 md:gap-3">
               <BlurText
                 text="Hi, I’m Saqib Shaikh"
                 delay={60}
@@ -36,8 +36,7 @@ export function Hero() {
                 direction="bottom"
                 className="inline-block"
               />
-              <br />
-              <span className="bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+              <span className="bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 block">
                 <BlurText
                   text="Full-Stack Developer"
                   delay={150}
