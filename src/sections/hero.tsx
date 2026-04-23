@@ -4,7 +4,7 @@ import { Suspense } from "react"
 import dynamic from "next/dynamic"
 import { motion } from "framer-motion"
 import { ArrowRight } from "lucide-react"
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
+import { FaGithub, FaEnvelope } from "react-icons/fa"
 
 import { BlurText } from "@/components/BlurText"
 import { buttonVariants } from "@/components/ui/button"
@@ -28,7 +28,7 @@ export function Hero() {
       <div className="container relative z-10 mx-auto px-4 md:px-8 pointer-events-none">
         <div className="flex flex-col items-start max-w-2xl gap-4">
           <div>
-            <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight text-foreground flex flex-col gap-2 md:gap-3">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight text-foreground">
               <BlurText
                 text="Hi, I’m Saqib Shaikh"
                 delay={60}
@@ -36,7 +36,9 @@ export function Hero() {
                 direction="bottom"
                 className="inline-block"
               />
-              <span className="bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 block">
+            </h1>
+            <div className="mt-2 md:mt-3">
+              <span className="bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 block text-2xl sm:text-3xl md:text-5xl font-bold">
                 <BlurText
                   text="Full-Stack Developer"
                   delay={150}
@@ -45,7 +47,7 @@ export function Hero() {
                   className="inline-block"
                 />
               </span>
-            </h1>
+            </div>
           </div>
 
           <motion.div
@@ -64,8 +66,13 @@ export function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex flex-wrap items-center gap-4 mt-8 pointer-events-auto"
           >
-            <a href="#projects" className={buttonVariants({ size: "lg", className: "rounded-full shadow-lg" })}>
-              View Projects <ArrowRight className="ml-2 h-4 w-4" />
+            <a 
+              href="https://drive.google.com/file/d/1Uh8p2eqQ9dyqcJb53RjlH5fo9J6HcJQG/view?usp=sharing" 
+              target="_blank" 
+              rel="noreferrer"
+              className={buttonVariants({ size: "lg", className: "rounded-full shadow-lg" })}
+            >
+              View Resume <ArrowRight className="ml-2 h-4 w-4" />
             </a>
             <a href="#contact" className={buttonVariants({ size: "lg", variant: "outline", className: "rounded-full shadow-sm bg-background/50 backdrop-blur-sm" })}>
               Contact Me
@@ -81,10 +88,6 @@ export function Hero() {
             <a href="https://github.com/heysaqib" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-all hover:scale-110 hover:text-primary">
               <FaGithub className="h-7 w-7" />
               <span className="sr-only">GitHub</span>
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-all hover:scale-110 hover:text-primary">
-              <FaLinkedin className="h-7 w-7" />
-              <span className="sr-only">LinkedIn</span>
             </a>
             <a href="mailto:mailthatnerd@gmail.com" className="text-muted-foreground hover:text-foreground transition-all hover:scale-110 hover:text-primary">
               <FaEnvelope className="h-7 w-7" />
