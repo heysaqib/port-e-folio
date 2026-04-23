@@ -66,7 +66,7 @@ export function Contact() {
                 <a href="https://github.com/heysaqib" target="_blank" rel="noreferrer" className={buttonVariants({ variant: "outline", className: "h-12 flex items-center justify-center gap-2" })}>
                   <FaGithub className="h-4 w-4" /> GitHub
                 </a>
-                <a href="https://drive.google.com/file/d/1Uh8p2eqQ9dyqcJb53RjlH5fo9J6HcJQG/view?usp=sharing" target="_blank" rel="noreferrer" className={buttonVariants({ variant: "outline", className: "h-12 flex items-center justify-center gap-2" })}>
+                <a href="/resume.pdf" target="_blank" rel="noreferrer" className={buttonVariants({ variant: "outline", className: "h-12 flex items-center justify-center gap-2" })}>
                   <FileText className="h-4 w-4" /> Resume
                 </a>
               </div>
