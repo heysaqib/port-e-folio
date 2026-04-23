@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion"
-import { MessageSquare, Send } from "lucide-react"
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
+import { MessageSquare, Send, FileText } from "lucide-react"
+import { FaGithub, FaEnvelope } from "react-icons/fa"
 
 import { BlurText } from "@/components/BlurText"
 import { buttonVariants } from "@/components/ui/button"
@@ -57,17 +57,17 @@ export function Contact() {
                 </div>
                 <div className="relative flex justify-center text-xs uppercase">
                   <span className="bg-background px-2 text-muted-foreground">
-                    Or find me on
+                    Professional Links
                   </span>
                 </div>
               </div>
               
               <div className="grid grid-cols-2 gap-4">
-                <a href="https://linkedin.com" target="_blank" rel="noreferrer" className={buttonVariants({ variant: "outline", className: "h-12 flex items-center justify-center gap-2" })}>
-                  <FaLinkedin className="h-4 w-4" /> LinkedIn
-                </a>
                 <a href="https://github.com/heysaqib" target="_blank" rel="noreferrer" className={buttonVariants({ variant: "outline", className: "h-12 flex items-center justify-center gap-2" })}>
                   <FaGithub className="h-4 w-4" /> GitHub
+                </a>
+                <a href="https://drive.google.com/file/d/1Uh8p2eqQ9dyqcJb53RjlH5fo9J6HcJQG/view?usp=sharing" target="_blank" rel="noreferrer" className={buttonVariants({ variant: "outline", className: "h-12 flex items-center justify-center gap-2" })}>
+                  <FileText className="h-4 w-4" /> Resume
                 </a>
               </div>
             </CardContent>

@@ -11,24 +11,24 @@ const projects = [
   {
     title: "AeroNotes",
     description: "A sleek, high-performance note-taking application designed for speed and simplicity.",
-    image: "https://plus.unsplash.com/premium_photo-1685287730766-2afe31432da5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    tags: ["Next.js", "TypeScript", "Tailwind", "Firebase"],
+    image: `https://s0.wp.com/mshots/v1/${encodeURIComponent("https://aeronotes-omega.vercel.app")}?w=1280&h=960`,
+    tags: ["Next.js", "Firebase", "Tailwind", "TypeScript"],
     github: "https://github.com/heysaqib/note-it-down",
     live: "https://aeronotes-omega.vercel.app"
   },
   {
     title: "Aetheris Red",
-    description: "A dark-themed, immersive web experience with smooth animations and modern UI.",
-    image: "https://images.unsplash.com/photo-1612556810513-617a5a892418?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    tags: ["React", "Framer Motion", "Tailwind", "Vite"],
+    description: "A professional service-providing website designed with a focus on user experience and conversion.",
+    image: `https://s0.wp.com/mshots/v1/${encodeURIComponent("https://aetheris-red.vercel.app")}?w=1280&h=960`,
+    tags: ["React", "Tailwind", "Framer Motion", "Node.js"],
     github: "https://github.com/heysaqib/shiny-umbrella",
     live: "https://aetheris-red.vercel.app"
   },
   {
     title: "Hiba Aesthetics",
-    description: "A premium aesthetic clinic website showcasing services and expertise with an elegant design.",
-    image: "https://images.unsplash.com/photo-1674027392842-29f8354e236c?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    tags: ["Next.js", "Sanity CMS", "Tailwind", "GSAP"],
+    description: "A comprehensive online e-commerce platform for women's ethnic clothing, featuring a seamless shopping experience.",
+    image: `https://s0.wp.com/mshots/v1/${encodeURIComponent("https://hibaaesthetics.vercel.app")}?w=1280&h=960`,
+    tags: ["Next.js", "Stripe", "Tailwind", "Sanity"],
     github: "https://github.com/heysaqib/hiba-aesthetics",
     live: "https://hibaaesthetics.vercel.app"
   }
