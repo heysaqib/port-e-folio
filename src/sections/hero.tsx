@@ -67,7 +67,7 @@ export function Hero() {
             className="flex flex-wrap items-center gap-4 mt-8 pointer-events-auto"
           >
             <a 
-              href="https://drive.google.com/file/d/1Uh8p2eqQ9dyqcJb53RjlH5fo9J6HcJQG/view?usp=sharing" 
+              href="/resume.pdf" 
               target="_blank" 
               rel="noreferrer"
               className={buttonVariants({ size: "lg", className: "rounded-full shadow-lg" })}
